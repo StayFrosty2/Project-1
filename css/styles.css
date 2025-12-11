@@ -12,17 +12,30 @@ body {
     font-size: 100%;
 }
 #container {
-    background: #ccc;
+    background: #a1991e;
     width: 80%;
     margin: 0 auto;
     padding: 2.5%;
 }
 header, section, footer {
-    background: #fff;
+    background: #ffffff;
     padding: 2.5%;
     margin-bottom: 1em;
 }
 main {
     display: flex;
     flex-direction: column;
+}
+
+/* Where I start to impliment my own styling */
+
+/* Navigation */
+
+header nav ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+header nav li{
+    display: inline-block;
 }
