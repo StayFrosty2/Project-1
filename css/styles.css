@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* Basic layout styles | Got a bit short on time so this section is partially taken from Lesson 13's style.css. Just wanted to make it look pretty */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: black;
+    font-size: 100%;
+}
+#container {
+    background: #ccc;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5%;
+}
+header, section, footer {
+    background: #fff;
+    padding: 2.5%;
+    margin-bottom: 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
