@@ -132,6 +132,22 @@ section img {
     text-decoration: underline;
     font-family: sans-serif;
 }
+#nameplate {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px inset gold;
+    background: gold;
+}
+#quote {
+    font-style: italic;
+    font-weight: bold;
+    font-family: serif;
+    border: 2px inset grey;
+    background: grey;
+}
+#about {
+    list-style-type: disc;
+    list-style-position: inside;
+}
 strong {
     text-decoration: underline;
 }
