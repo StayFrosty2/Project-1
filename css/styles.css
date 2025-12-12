@@ -104,6 +104,7 @@ section {
 }
 section h2 {
     font-size: 40px;
+    text-transform: uppercase;
 }
 section img {
     border: 5px solid black;
