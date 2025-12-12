@@ -119,6 +119,9 @@ section img {
     padding-left: 10px;
     padding-right: 10px;
 }
+strong {
+    text-decoration: underline;
+}
 #title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
@@ -149,12 +152,12 @@ section img {
     list-style-position: inside;
 }
 #yapping {
-    max-width: 90%;
+    max-width: 80%;
     position: relative;
-    left: 5%;
+    left: 8.999%;
 }
-strong {
-    text-decoration: underline;
+#support p{
+    font-style: italic;
 }
 
 /* Section Links */
@@ -170,4 +173,10 @@ section ul {
     list-style-type: none;
     position: relative;
     right: 2.1%;
+}
+
+/* Form */
+
+form input, form textarea{
+    margin-bottom: 8px;
 }
