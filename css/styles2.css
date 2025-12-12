@@ -148,6 +148,11 @@ section img {
     list-style-type: disc;
     list-style-position: inside;
 }
+#yapping {
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+}
 strong {
     text-decoration: underline;
 }
