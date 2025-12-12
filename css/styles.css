@@ -17,7 +17,12 @@ body {
     margin: 0 auto;
     padding: 2.5%;
 }
-header, section, footer {
+header {
+    background: black;
+    padding: 2.5%;
+    margin-bottom: 1em;
+}
+section, footer {
     background: #b8b8b4;
     padding: 2.5%;
     margin-bottom: 1em;
@@ -68,12 +73,14 @@ header h1 {
     color:rgb(197, 79, 0);
     text-decoration: underline;
     text-transform: uppercase;
+    background: black;
 }
 header p {
     text-transform: capitalize;
+    color: yellow;
 }
 header nav ul{
-    border: 4px, solid, black;
+    border: 4px, solid, rgb(255, 255, 255);
 }
 header nav ul {
     padding-left: 0;
@@ -88,11 +95,17 @@ header nav a:link {
 	text-decoration: none;
 	background-color: rgb(77, 36, 8);
 	color: yellow;
+    border: 1px solid black;
 }
 header nav a:visited {
 	color: yellow;
+    border: 1px solid black;
 }
 header nav a:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}
+header nav a:focus {
     color: yellow;
     border: 1px solid yellow;
 }
