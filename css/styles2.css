@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* styles2 is a copy and paste of styles.css, however I've removed the flex direction so the sections only appear in a colluom.*/
 /* Basic layout styles | Got a bit short on time so this section is partially taken from Lesson 13's style.css. Just wanted to make it look pretty */
 html {
     box-sizing: border-box;
@@ -29,14 +30,7 @@ section{
 }
 main {
     display: flex;
-    flex-direction: row;
-	flex-wrap: wrap;
-}
-main section:nth-of-type(3), main section:nth-of-type(6){
-	flex-basis: 100%;
-}
-main section:nth-of-type(1), main section:nth-of-type(2), main section:nth-of-type(4), main section:nth-of-type(5) {
-	flex-basis: 50%;
+    flex-direction: column;
 }
 
 /* Where I start to impliment my own styling */
