@@ -54,9 +54,6 @@ header p {
 section {
     text-align: center;
 }
-section p {
-    text-align: left;
-}
 footer {
     text-align: center;
     padding: 0.01%;
@@ -95,14 +92,14 @@ header nav a:hover {
 section {
     border: 3px solid black;
 }
-
 section h2 {
     font-size: 40px;
 }
-
-section p {
-    font-size: 20px;
-    max-width: 10em;
+section img {
+    border: 5px solid black;
+    background: rgb(116, 116, 116);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Section Links */
@@ -111,7 +108,9 @@ section a:link, section a:visited {
     color: navy;
     text-decoration: underline;
 }
-
 section a:hover {
     color: yellow;
 }
+
+/* Section Lists */
+
