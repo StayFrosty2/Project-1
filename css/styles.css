@@ -101,7 +101,7 @@ header nav li{
     display: inline-block;
 }
 header nav a:link {
-    padding: 1em;
+    padding: 5px;
 	text-decoration: none;
 	background-color: rgb(77, 36, 8);
 	color: yellow;
