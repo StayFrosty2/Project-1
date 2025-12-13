@@ -187,7 +187,7 @@ form input, form textarea{
 
 /* Current Class */
 
-header nav a.current, header nav >ul > li > a:has(+ ul a.current){
+header nav a.current {
     color: orange;
     text-decoration: underline;
 }
