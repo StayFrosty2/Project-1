@@ -135,6 +135,11 @@ section img {
     padding-left: 10px;
     padding-right: 10px;
 }
+#lowerWidth {
+    max-width: 80%;
+    position: relative;
+    left: 8.9999%;
+}
 
 /* Section Links */
 
