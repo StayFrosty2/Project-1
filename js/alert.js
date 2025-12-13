@@ -1,2 +1,2 @@
 // External Javascript, Only used on the Support2 Page to emulate the user sending information to the store. I couldn't think of a better way of doing this with the knowledge I have of javascript :<
-alert("Your message was sent! I'll email you back as soon as I can!");
+alert("Form Submitted");

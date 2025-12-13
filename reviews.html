@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8" />
-		<title>Goblin RNR | About</title>
+		<title>Goblin RNR | Reviews</title>
         <meta name="author" content="Cameron Yon-Vachon" />
-        <meta name="description" content="Subcription to Goblin RNR success page" />
+        <meta name="description" content="Goblin RNR Reviews Page" />
 		<link rel="shortcut icon" href="images/bea the goblin.svg" type="image/x-icon" />
 		<link href="css/normalize.css" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -31,7 +31,23 @@
                     <h2>Reviews</h2>
                 </section>
                 <section>
-                    
+                    <ul id="reviews">
+                        <li><em>"What a cute little shop... reminds me of the good old days"</em><br><small>- Nice older lady</small></li>
+                        <li><em>"I came here once whilst travelling the stars, their stuff really caught my eye!"</em><br><small>- Local (?) Tabaxi</small></li>
+                        <li>"Best freaking toaster I've ever bought. Melted thought my counter and gave me the perfect poptart. 5 stars!"<br><small>- A <em>VERY</em> happy customer</small></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>If you want to leave a review, type your name and thoughts below:</h3>
+                    <form action="reviews2.html" method="get">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <textarea id="message" name="message" rows="5" cols="50" placeholder="Write your thoughts on our store and service"></textarea>
+                        <br>
+						<button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+					</form>
                 </section>
             </main>
             <footer>

@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
 		<meta charset="UTF-8" />
-		<title>Goblin RNR | Support | Submitted</title>
+		<title>Goblin RNR | About</title>
         <meta name="author" content="Cameron Yon-Vachon" />
-        <meta name="description" content="Second Support Page for Goblin RNR" />
+        <meta name="description" content="Goblin RNR Reviews Page 2" />
 		<link rel="shortcut icon" href="images/bea the goblin.svg" type="image/x-icon" />
         <script src="js/alert.js" async></script>
 		<link href="css/normalize.css" rel="stylesheet" />
@@ -28,25 +28,22 @@
 			</header>
             <main>
                 <section>
-                    <h2>Support Page</h2>
-                </section>
-                <section id="support">
-                    <p>Toaster not popping?<br>Spilled coffee on your typewriter and the keys aren't working?<br>Some part snapped and you can't find it anywhere?</p>
-                    <h2>Give us a call!</h2>
-                    <p>444-409-4488<br>Bea's Cell Number</p>
-                    <h2>Or, send an email!</h2>
-                    <p>goblinrnr@ascii.mail</p>
+                    <h2>Reviews</h2>
                 </section>
                 <section>
-                    <h3>Alternatively, put your name and email here, and type out your issue<br>I'll get back to you as soon as I can!</h3>
-                    <form action="support2.html" method="get">
+                    <ul id="reviews">
+                        <li><em>"What a cute little shop... reminds me of the good old days"</em><br><small>- Nice older lady</small></li>
+                        <li><em>"I came here once whilst travelling the stars, their stuff really caught my eye!"</em><br><small>- Local (?) Tabaxi</small></li>
+                        <li>"Best freaking toaster I've ever bought. Melted thought my counter and gave me the perfect poptart. 5 stars!"<br><small>- A <em>VERY</em> happy customer</small></li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>If you want to leave a review, type your name and thoughts below:</h3>
+                    <form action="reviews2.html" method="get">
                         <label for="name">Name:</label>
-                        <input type="text" name="name" id="name" required>
+                        <input type="text" name="name" id="name">
                         <br>
-						<label for="emailAddress">Email:</label>
-						<input type="email" name="emailAddress" id="emailAddress" required />
-                        <br>
-                        <textarea id="message" name="message" rows="5" cols="50" placeholder="Type question here"></textarea>
+                        <textarea id="message" name="message" rows="5" cols="50" placeholder="Write your thoughts on our store and service"></textarea>
                         <br>
 						<button type="submit">Submit</button>
                         <button type="reset">Reset</button>
