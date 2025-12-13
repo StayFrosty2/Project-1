@@ -135,10 +135,6 @@ section img {
     padding-left: 10px;
     padding-right: 10px;
 }
-#current {
-    color: paleturquoise;
-    text-decoration: underline;
-}
 
 /* Section Links */
 
@@ -148,4 +144,11 @@ section a:link, section a:visited {
 }
 section a:hover {
     color: yellow;
+}
+
+/* Current Class */
+
+header nav a.current{
+    color: orange;
+    text-decoration: underline;
 }

@@ -159,7 +159,7 @@ strong {
 #support p{
     font-style: italic;
 }
-#current {
+.current {
     color: paleturquoise;
     text-decoration: underline;
 }
@@ -183,4 +183,11 @@ section ul {
 
 form input, form textarea{
     margin-bottom: 8px;
+}
+
+/* Current Class */
+
+header nav a.current, header nav >ul > li > a:has(+ ul a.current){
+    color: orange;
+    text-decoration: underline;
 }

@@ -8,6 +8,7 @@ let linkUrl;
 links.forEach((element) => {
 
     linkUrl = element.href;
+    
     if(linkUrl == pageURL)
     {
         element.classList.add("current");
