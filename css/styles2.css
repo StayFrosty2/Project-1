@@ -159,6 +159,10 @@ strong {
 #support p{
     font-style: italic;
 }
+#current {
+    color: paleturquoise;
+    text-decoration: underline;
+}
 
 /* Section Links */
 

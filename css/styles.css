@@ -135,6 +135,10 @@ section img {
     padding-left: 10px;
     padding-right: 10px;
 }
+#current {
+    color: paleturquoise;
+    text-decoration: underline;
+}
 
 /* Section Links */
 
